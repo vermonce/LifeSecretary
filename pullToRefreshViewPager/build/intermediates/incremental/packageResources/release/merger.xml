@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshViewPager\src\main\res" >
+            <file
+                name="need_this_for_maven"
+                path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshViewPager\src\main\res\layout\need_this_for_maven.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshViewPager\src\main\res\values\ids.xml"
+                qualifiers="" >
+                <item
+                    name="viewpager"
+                    type="id"/>
+            </file>
+        </source>
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshViewPager\build\generated\res\rs\release" />
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshViewPager\build\generated\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshViewPager\src\release\res" />
+    </dataSet>
+
+</merger>

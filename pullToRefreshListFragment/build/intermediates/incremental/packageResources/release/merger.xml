@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshListFragment\src\main\res" >
+            <file
+                name="need_this_for_maven"
+                path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshListFragment\src\main\res\layout\need_this_for_maven.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshListFragment\build\generated\res\rs\release" />
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshListFragment\build\generated\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\pullToRefreshListFragment\src\release\res" />
+    </dataSet>
+
+</merger>

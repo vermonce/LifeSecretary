@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.guoxiaotian.lifesecretary.controler.activity.HistoryDetail">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:text="标题。。。。"
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher"
+                android:id="@+id/iv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher"
+                android:id="@+id/iv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher"
+                android:id="@+id/iv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/ic_launcher"
+                android:id="@+id/iv_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_launcher"
+                android:id="@+id/iv_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_launcher"
+                android:id="@+id/iv_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:layout_margin="8dp"
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

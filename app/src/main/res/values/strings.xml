@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LifeSecretary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+    <string name="title_activity_xingzuo">Xingzuo</string>
+    <string name="title_activity_jiemeng">Jiemeng</string>
+    <string name="title_activity_xingshi">Xingshi</string>
+    <string name="title_activity_peidui">Peidui</string>
+    <string name="title_activity_company">Company</string>
+    <string name="title_activity_history_detail">HistoryDetail</string>
+
+</resources>

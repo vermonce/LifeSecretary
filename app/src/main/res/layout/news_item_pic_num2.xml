@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:layout_marginRight="8dp"
+        android:textColor="#000000"
+        android:id="@+id/tvnews_item_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/ivnews_item_pic_1"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginLeft="10dp"
+            android:layout_width="95dp"
+            android:layout_height="85dp" />
+
+        <ImageView
+            android:id="@+id/ivnews_item_pic_2"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginLeft="30dp"
+            android:layout_width="95dp"
+            android:layout_height="85dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#2f4f4f"
+                android:id="@+id/tvnews_item_author"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者名称"/>
+
+            <TextView
+                android:textColor="#2f4f4f"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvnews_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-11-11"
+                android:textSize="10sp"/>
+
+            </LinearLayout>
+        
+        </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"/>
+
+</LinearLayout>

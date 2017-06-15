@@ -1,0 +1,6 @@
+include ':app', ':xutils'
+include ':library'
+include ':pullToRefreshListFragment'
+include ':pullToRefreshViewPager'
+include ':sample'
+include ':viewPagerIndicatorlibrary'

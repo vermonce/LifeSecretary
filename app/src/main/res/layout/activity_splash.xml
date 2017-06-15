@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_Spl_bg"
+    android:background="@drawable/splash_bg"
+    tools:context="com.guoxiaotian.lifesecretary.controler.activity.SplashActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_weight="4"
+            android:id="@+id/iv_Spl_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:src="@drawable/superman"
+            android:layout_height="100dp"
+            />
+
+
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/tv_Spl_name"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00000f"
+            android:textSize="50sp"
+            android:text="Super Info"/>
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:text="it is designed by Mr.Guo"/>
+    </LinearLayout>
+
+</LinearLayout>
+

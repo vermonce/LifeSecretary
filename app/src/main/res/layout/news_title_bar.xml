@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:background="#0000ff"
+    android:gravity="center_vertical"
+    >
+
+    <!--标题栏 titlebar-->
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是标题"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_title"/>-->
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ib_back"
+        android:background="@android:color/transparent"
+        />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_textsize"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:id="@+id/ib_textsize"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_share"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/ib_share"
+            android:background="@android:color/transparent"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.3" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\sample\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\sample\build\intermediates\exploded-aar\LifeSecretary\library\unspecified\assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\sample\build\intermediates\exploded-aar\LifeSecretary\pullToRefreshViewPager\unspecified\assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\sample\build\intermediates\exploded-aar\LifeSecretary\pullToRefreshListFragment\unspecified\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\sample\src\main\assets" >
+            <file
+                name="ptr_webview2_sample.html"
+                path="F:\AndroidStudio\workspace\LifeSecretary\sample\src\main\assets\ptr_webview2_sample.html" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="F:\AndroidStudio\workspace\LifeSecretary\sample\src\debug\assets" />
+    </dataSet>
+
+</merger>

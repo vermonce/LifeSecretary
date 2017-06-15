@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <TextView
+        android:gravity="center"
+        android:background="@drawable/assistant_bg_shape"
+        android:textColor="#000000"
+        android:layout_margin="3dp"
+        android:textSize="15sp"
+        android:text="十万个冷笑话"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+ <!--   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>-->
+
+<!--    <ListView
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/funtext_listview"
+        android:layout_weight="1">
+
+        </ListView>-->
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrMode="both"
+        ptr:ptrDrawable="@drawable/ic_action_reload"
+        android:smoothScrollbar="true" />
+
+</LinearLayout>
